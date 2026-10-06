@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Te quiero ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="portada" id="portada">
+        <div class="torta">🎂</div>
+
+        <h1>Feliz cumpleaños</h1>
+        <h2>Niki</h2>
+        <p>28 de octubre de 2026</p>
+
+        <button id="entrar">Entrar a mi regalo ❤️</button>
+    </main>
+
+   <section class="menu" id="menu" style="display: none;">
+<div class="corazones-fondo">
+    <span>❤️</span>
+    <span>💗</span>
+    <span>💕</span>
+    <span>💖</span>
+    <span>❤️</span>
+    <span>💗</span>
+    <span>💕</span>
+    <span>❤️</span>
+    <span>💖</span>
+    <span>💗</span>
+</div>
+    <div class="fotos-menu">
+        <img src="fotos/niki 1.jpg">
+        <img src="fotos/niki 2.jpg">
+    </div>
+
+  <div class="menu-centro">
+
+    <h1>Mi regalo para vos ❤️</h1>
+    <p>Elegí qué querés ver</p>
+
+    <button>💌 Cartas</button>
+    <button>🎨 Dibujos</button>
+    <button>📸 Momentos y cosas nuestras</button>
+    <button>💗 Una última sorpresa</button>
+
+</div>
+    </section>
+
+    <script>
+        const portada = document.getElementById("portada");
+        const menu = document.getElementById("menu");
+        const entrar = document.getElementById("entrar");
+
+        entrar.onclick = function() {
+            portada.style.display = "none";
+           menu.style.display = "flex";
+        };
+    </script>
+
+</body>
+</html>
